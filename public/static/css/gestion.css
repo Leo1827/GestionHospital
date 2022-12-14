@@ -1,0 +1,112 @@
+.mtop32{
+    margin-top: 32px;
+}
+
+.mtop16{
+    margin-top: 16px;
+}
+
+    .header{
+        background-color: rgb(224, 226, 229);
+        box-shadow: 10%;
+    }
+
+        .title{
+            margin-top: 10px;
+            text-align: center;
+        }
+
+            .breadcrumb-item{
+                padding: 16px;
+                text-align: center;
+            }
+
+            .add{
+                border-radius: 2px;
+                margin-left: 150px;
+                padding: 8px;
+                position: relative;
+                bottom: 10px;
+                width: 8%;
+            }
+            .link{
+                color: black;
+            }
+            .add:hover{
+                background-color: #5177e169;
+            }
+
+    .container-fluid{
+        position: relative;
+        top: 15%;
+        width: 80%;
+    }
+    
+    .row{
+        margin-top: 16px;
+    }
+
+    .save{
+        margin-top: 16px;
+        padding: 16px;
+    }
+
+.table{
+    margin-left: 10%;
+    width: 80%;
+}
+
+    .opts {
+        overflow: hidden;
+    }
+
+    .boton{
+        align-items: center;
+		display: flex;
+		border-radius: 8px;
+		cursor: pointer;
+		font-size: .9em;
+		float: left;
+		justify-content: center;
+		height: 38px;
+		margin-right: 8px;
+		width: 38px;
+    }
+       
+        a.edit {
+            background-color: #383c7e;
+            color: #fff;
+        }
+            .edit:hover{
+                background-color: #5177e169;
+                color: #fff;
+            }
+
+        a.delete {
+            background-color: #e31330;
+            color: #fff;
+        }
+            .delete:hover {
+                background-color: #5177e169;
+                color: #fff;
+            }
+
+
+/***Responsive***/
+
+@media only screen and (max-width: 600px) {
+    .add{
+        border: 1px solid #5177e169;
+        border-radius: 2px;
+        right: 10px;
+        margin-top: 20px;
+        padding: 8px;
+        width: 28%;
+    }
+
+    .table{
+        display: block;
+        overflow-x: auto;
+    }
+
+  }
