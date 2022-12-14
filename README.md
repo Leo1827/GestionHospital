@@ -1,26 +1,10 @@
 
-##Índice
-
-*[Título e imagen de portada](#Título-e-imagen-de-portada)
-
-*[Insignias](#insignias)
-
-*[Índice](#índice)
-
-*[Descripción del proyecto](#descripción-del-proyecto)
-
-*[Estado del proyecto](#Estado-del-proyecto)
-
-*[Características de la aplicación y demostración](#Características-de-la-aplicación-y-demostración)
-
-*[Acceso al proyecto](#acceso-proyecto)
-
-*[Tecnologías utilizadas](#tecnologías-utilizadas)
-
-*[Personas Contribuyentes](#personas-contribuyentes)
-
-*[Personas-Desarrolladores del Proyecto](#personas-desarrolladores)
-
-* [Licencia](#licencia)
-
-*[Conclusión](#conclusión)
+## Gestion Hospiatalario - Laravel, PHP, CSS
+***
+El sistema para la gestion hospitalaria da como resultado la obtencion de datos segun los pacientes y hospitales.
+El programa posee las siguientes caracteristicas:
+> Administrar por medio de un CRUD la gestion de un hospital. 
+> Se puede crear, editar y eliminar los datos en cada sección (Pacientes, Hospitales, Gestion).
+> Las tablas de Pacientes y Hospitales estan relacionadas con Gestion.
+> Se creo un sistema de alerta con Javascript, confirmacion de acciones (Agregar, Editar y eliminar).
+> Relaciones correspondientes.
