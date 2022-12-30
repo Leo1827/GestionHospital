@@ -48,13 +48,22 @@
 				<a href="{{ url('/') }}" class="nav__logo">CRUD laravel </a>
 			</div>
 	
-			<div class="nav__menu" id="nav-menu">
-				<ul class="nav__list">
-					<li class="nav__item"><a href="{{ url('/login') }}" class="nav__link">Inicio de sesion</a></li>
-					<li class="nav__item"><a href="{{ url('/register') }}" class="nav__link">Registro de usuario</a></li>
-					
-				</ul>
-			</div>
+			@if(Auth::guest())
+				<div class="nav__menu" id="nav-menu">
+					<ul class="nav__list">
+						<li class="nav__item"><a href="{{ url('/login') }}" class="nav__link">Inicio de sesion</a></li>
+						<li class="nav__item"><a href="{{ url('/register') }}" class="nav__link">Registro de usuario</a></li>
+						
+					</ul>
+				</div>
+			@else
+				<div class="nav__menu" id="nav-menu">
+					<ul class="nav__list">
+						<li class="nav__item"><a href="{{ url('/admin') }}" class="nav__link">Administrador</a></li>
+						
+					</ul>
+				</div>
+			@endif
 	
 			<div class="nav__toggle" id="nav-toggle">
 				<i class='bx bx-menu'></i>
