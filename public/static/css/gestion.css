@@ -17,6 +17,7 @@
         }
 
             .breadcrumb-item{
+                margin-top: 100px;
                 padding: 16px;
                 text-align: center;
             }
